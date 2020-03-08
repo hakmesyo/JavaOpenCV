@@ -39,6 +39,7 @@ public class MyFrame extends javax.swing.JFrame {
                 try { Thread.sleep(30);
                 } catch (InterruptedException e) {    }
             }
+            
         }
     }
 
