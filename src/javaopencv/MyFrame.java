@@ -36,7 +36,7 @@ public class MyFrame extends javax.swing.JFrame {
         public void run() {
             for (;;){
                 repaint();
-                try { Thread.sleep(30);
+                try { Thread.sleep(5);
                 } catch (InterruptedException e) {    }
             }
             

@@ -24,8 +24,8 @@ public class VideoCap {
     VideoCap(){
         cap = new VideoCapture();
         cap.open(0);
-        cap.set(Videoio.CAP_PROP_FRAME_WIDTH, 640);
-        cap.set(Videoio.CAP_PROP_FRAME_HEIGHT, 480);
+        cap.set(Videoio.CAP_PROP_FRAME_WIDTH, 1280);
+        cap.set(Videoio.CAP_PROP_FRAME_HEIGHT, 720);
     }
 
     BufferedImage getOneFrame() {
